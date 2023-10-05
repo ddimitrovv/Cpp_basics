@@ -4,10 +4,8 @@ using namespace std;
 
 int main() {
     int degree;
-    string time_of_the_day;
+    string time_of_the_day, shoes, outfit;
     cin >> degree >> time_of_the_day;
-    string outfit;
-    string shoes;
     if (time_of_the_day == "Evening") {
         outfit = "Shirt";
         shoes = "Moccasins";
